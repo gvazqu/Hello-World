@@ -1,5 +1,8 @@
 (function($){
-  $('.slider').slider();
+  $('.slider').slider({
+  	height: 600,
+	interval: 4000,   
+ 	});
 	
   $(function(){
         //initialize all modals          
