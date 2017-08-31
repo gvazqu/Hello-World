@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>TestPage Materialize</title>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" rel="stylesheet">              
+</head>
+
+  
+
+<body>
+ <div class="navbar-fixed">
+<nav class="blue darken-3" role="navigation">
+    <div class="nav-wrapper container">
+      <!---<a id="logo-container" href="#" class="brand-logo">Logo</a>--->
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>  
+</div>
+
+  
+  
+  <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+  	<div class="col s3">
+		<div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      				<img class="activator" src="file://///902dusers/Users/902d/Gabriel.Vazquez/Desktop/DEV/Material/pug1.jpg">
+    			</div>
+    		<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Happy Pug<i class="material-icons right">more_vert</i></span>
+      			<p><a href="#">This is a link</a></p>
+    		</div>
+    		<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      			<p>Here is some more information about this product that is only revealed once clicked on.</p>
+    		</div>
+  		</div>
+	</div>
+	<div class="col s3">
+		<div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      				<img class="activator" src="file://///902dusers/Users/902d/Gabriel.Vazquez/Desktop/DEV/Material/pug2.jpg">
+    			</div>
+    		<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4"><i class="material-icons">add</i></span>
+      			<p><a href="#">This is a link</a></p>
+    		</div>
+    		<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      			<p>Here is some more information about this product that is only revealed once clicked on.</p>
+    		</div>
+  		</div>
+	</div>
+	<div class="col s3">
+		<div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      				<img class="activator" src="file://///902dusers/Users/902d/Gabriel.Vazquez/Desktop/DEV/Material/pug3.jpg">
+    			</div>
+    		<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Vampire Pug<i class="material-icons right">more_vert</i></span>
+      			<p><a href="#">This is a link</a></p>
+    		</div>
+    		<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      			<p>Here is some more information about this product that is only revealed once clicked on.</p>
+    		</div>
+  		</div>
+	</div>
+	<div class="col s3">
+		<div class="card">
+    			<div class="card-image waves-effect waves-block waves-light">
+      				<img class="activator" src="file://///902dusers/Users/902d/Gabriel.Vazquez/Desktop/DEV/Material/pug4.jpg">
+    			</div>
+    		<div class="card-content">
+      			<span class="card-title activator grey-text text-darken-4">Too Close Pug<i class="material-icons right">more_vert</i></span>
+      			<p><a href="#">This is a link</a></p>
+    		</div>
+    		<div class="card-reveal">
+      			<span class="card-title grey-text text-darken-4">PUG TOO CLOSE<i class="material-icons right">close</i></span>
+      			<p>Here is some more information about this product that is only revealed once clicked on.</p>
+    		</div>
+  		</div>
+	</div>
+  </div>
+</div>
+
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+  
+<!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+ <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="init.js"></script>   
+
+</script>
+         
+</body>
+</html>
+
+          
