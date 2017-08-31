@@ -1,5 +1,6 @@
 (function($){
-
+  $('.slider').slider();
+	
   $(function(){
         //initialize all modals          
        	 $('.modal').modal({
@@ -16,7 +17,7 @@
   );	
 	
 
-      $('.slider').slider();
+     
  
 
   }); // end of document ready
