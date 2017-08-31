@@ -3,6 +3,7 @@
   	height: 600,
 	interval: 4000,   
  	});
+  $('.materialboxed').materialbox();
 	
   $(function(){
         //initialize all modals          
